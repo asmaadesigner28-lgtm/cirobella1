@@ -1,0 +1,24 @@
+:root {
+  --primary: #c2185b; 
+  --dark-bg: #280519; 
+  --accent-ligt: #fce4ec;
+  --gold: #d4af37;
+  --text: #280519;
+  --sans: 'tajawel', sans-serif;
+}
+body{
+  font-family: var(--sans);
+  direction: rtl;
+  background-color: var(--accent-light);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+.hero-img{
+  width: 100%;
+  max-width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+  border-radius: 16px;
+ 
+}
